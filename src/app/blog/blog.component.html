@@ -1,0 +1,6 @@
+<p>blog works!</p>
+
+<!--loop on the observable restaurants$-->
+<div *ngFor="let restaurant of restaurants$ | async">
+  <p>{{ restaurant }}</p>
+</div>
